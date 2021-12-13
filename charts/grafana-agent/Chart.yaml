@@ -3,7 +3,7 @@ name: grafana-agent
 description: Deploy an instance of the Grafana agent on all appropriate nodes for scraping Prometheus metrics.
 type: application
 home: https://grafana.com/docs/agent/latest/
-version: 0.21.2
+version: 0.0.1
 appVersion: "v0.21.2"
 keywords:
 - monitoring
