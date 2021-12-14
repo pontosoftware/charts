@@ -133,3 +133,19 @@ config:
                   cluster: 'docker_compose'
                   container: 'agent'
                   pod: 'grafana-agent-local'
+
+scrapingServiceMode:
+  enabled: false
+
+# Only deployed when scrapingServiceMode.enabled is true
+consul:
+  client:
+    enabled: false
+  dns:
+    enabled: false
+  server:
+    replica: 3
+  ui:
+    enabled: false
+  nodeSelector:
+    role: server
