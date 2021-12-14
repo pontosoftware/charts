@@ -3,6 +3,27 @@ entries:
   grafana-agent:
   - apiVersion: v2
     appVersion: v0.21.2
+    created: "2021-12-14T18:27:03.5033995Z"
+    description: Deploy an instance of the Grafana agent on all appropriate nodes
+      for scraping Prometheus metrics.
+    digest: 0eee95ef243b56eb9ce8b264a99b1956d3a7ac2581c3b676ddc0dfad370ffcd1
+    home: https://grafana.com/docs/agent/latest/
+    keywords:
+    - monitoring
+    - prometheus
+    - cortex
+    maintainers:
+    - email: zach@ponto.org
+      name: Ballcapz
+    name: grafana-agent
+    sources:
+    - https://grafana.com/docs/agent/latest/
+    type: application
+    urls:
+    - https://github.com/pontosoftware/charts/releases/download/grafana-agent-0.0.2/grafana-agent-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: v0.21.2
     created: "2021-12-13T22:40:46.280943747Z"
     description: Deploy an instance of the Grafana agent on all appropriate nodes
       for scraping Prometheus metrics.
@@ -22,4 +43,4 @@ entries:
     urls:
     - https://github.com/pontosoftware/charts/releases/download/grafana-agent-0.0.1/grafana-agent-0.0.1.tgz
     version: 0.0.1
-generated: "2021-12-13T22:40:46.280950447Z"
+generated: "2021-12-14T18:27:03.5034092Z"
